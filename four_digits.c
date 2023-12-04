@@ -7,7 +7,7 @@ int main() {
         s[strcspn(s, "\n")] = '\0';
         int n = strlen(s);
         if (n < 4) {
-            printf("%*s%s\n", 4 - n, "0", s);
+            printf("%.*s%.*s\n", 4 - n, "0000", n, s);
         } else {
             printf("%s\n", s);
         }
