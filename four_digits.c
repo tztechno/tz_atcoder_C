@@ -3,13 +3,14 @@
 
 int main() {
     char s[1000];
-    fgets(s, sizeof(s), stdin);
-    s[strcspn(s, "\n")] = '\0';  // Remove trailing newline
-    int n = strlen(s);
-    if (n < 4) {
-        printf("%04s\n", s);
-    } else {
-        printf("%s\n", s);
+    if (fgets(s, sizeof(s), stdin) != NULL) {
+        s[strcspn(s, "\n")] = '\0';
+        int n = strlen(s);
+        if (n < 4) {
+            printf("%*s%s\n", 4 - n, "0", s);
+        } else {
+            printf("%s\n", s);
+        }
     }
     return 0;
 }
