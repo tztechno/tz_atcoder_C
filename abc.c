@@ -2,6 +2,12 @@
 
 int main() {
     int N;
+    
+    if (scanf("%d", &N) != 1) {
+        printf("Invalid input. Please enter an integer.\n");
+        return 1;  // Exit with an error code
+    }
+    
     int result; 
 
     if (N <= 125) {
