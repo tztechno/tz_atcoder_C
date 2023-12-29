@@ -8,10 +8,11 @@ int main()
 {
     char a[10000];
     scanf("%s",a);
-    if(a[strlen(a)-1]!='s')
-        printf("%ss",a);
-    else
+    
+    if (a[strlen(a)-1]=='s')
         printf("%ses",a);
+    else
+        printf("%ss",a);
 }
 
 ///////////////////////////////////
