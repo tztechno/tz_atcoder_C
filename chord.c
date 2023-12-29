@@ -1,8 +1,5 @@
 
-Certainly! Here is the equivalent code in C:
 
-c
-Copy code
 #include <stdio.h>
 #include <string.h>
 
