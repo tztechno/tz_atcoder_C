@@ -1,6 +1,5 @@
 # tz_atcoder_c
 
-https://learn.microsoft.com/ja-jp/cpp/c-language/c-language-reference?view=msvc-170
 
 ### latest
 ---
