@@ -16,7 +16,10 @@
 ```
 ---
 ```
-
+len(list(str(X0)) in C
+char str[20];
+snprintf(str, sizeof(str), "%d", X0);
+int length = strlen(str);    
 ```
 ---
 ```
