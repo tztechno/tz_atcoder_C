@@ -16,6 +16,26 @@
 ```
 ---
 ```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+void copyArray(int dest[], int src[], int size) {
+    for (int i = 0; i < size; i++) {
+        dest[i] = src[i];
+    }
+}
+```
+---
+```
 len(list(str(X0)) in C
 char str[20];
 snprintf(str, sizeof(str), "%d", X0);
